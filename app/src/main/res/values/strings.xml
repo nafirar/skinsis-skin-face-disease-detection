@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Skinsis</string>
+
+
+    <string name="snap_your_skin_string">Snap your skin</string>
+    <string name="history_string">History</string>
+    <string name="hi_fara__how_is_your_skin_today__string">Hi Fara!How is your skin today?</string>
+    <string name="results_string">Results</string>
+    <string name="results_ek1_string">Results</string>
+    <string name="try_again_string">Try Again</string>
+    <string name="your_skin_indication_string">Your skin indication</string>
+    <string name="professional_advice__string">Professional Advice:</string>
+    <string name="reset_password_you_will_get_an_email_with_instruction_on_reseting_password_string">Reset PasswordYou will get an email with instruction on reseting password</string>
+    <string name="email_address_ek1_string">Email address</string>
+    <string name="go_back_to_sign_in__string">Go back to Sign In.</string>
+    <string name="submit_ek2_string">Submit</string>
+    <string name="skinsis_your_personal_skin_doctor_string">SkinsisYour Personal Skin Doctor</string>
+    <string name="back_string">Back</string>
+    <string name="history_ek4_string">History</string>
+</resources>
