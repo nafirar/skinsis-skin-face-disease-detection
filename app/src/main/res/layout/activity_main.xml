@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -24,112 +25,118 @@
                 android:layout_height="wrap_content"
                 >
 
-                <View   android:id="@+id/_bg__home_ek2"
-                    android:background="@drawable/_bg__home_ek2_shape"
+                <View
+                    android:id="@+id/_bg__home_ek2"
+                    android:layout_width="450dp"
+                    android:layout_height="800dp"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp"
-                    android:layout_width="360dp"
-                    android:layout_height="800dp" />
+                    android:foreground="@drawable/_34185a6f9905e8b0b5b85b5efa284c88_2" />
 
-                <ImageView
-                    android:id="@+id/_34185a6f9905e8b0b5b85b5efa284c88_7"
-                    android:layout_width="470dp"
-                    android:layout_height="875dp"
-                    android:layout_marginStart="0dp"
-                    android:layout_marginTop="0dp"
-                    android:contentDescription="_34185a6f9905e8b0b5b85b5efa284c88_7"
-                    android:src="@drawable/_34185a6f9905e8b0b5b85b5efa284c88_7" />
-
-                <View   android:id="@+id/email_ek3"
-                    android:background="@drawable/email_ek3_shape"
-                    android:layout_marginStart="24dp"
-                    android:layout_marginTop="246dp"
-                    android:layout_width="150dp"
-                    android:layout_height="35dp" />
-
-                <View   android:id="@+id/email_ek4"
-                    android:background="@drawable/email_ek4_shape"
+                <View
+                    android:id="@+id/email_ek4"
+                    android:layout_width="311dp"
+                    android:layout_height="121dp"
                     android:layout_marginStart="24dp"
                     android:layout_marginTop="84dp"
-                    android:layout_width="311dp"
-                    android:layout_height="121dp" />
+                    android:background="@drawable/email_ek4_shape" />
 
-                <TextView android:id="@+id/snap_your_skin"
-                    android:fontFamily="Nunito Sans"
+                <TextView
+                    android:id="@+id/snap_your_skin"
+                    android:layout_width="99dp"
+                    android:layout_height="29dp"
                     android:layout_gravity="center_horizontal|center"
-                    android:gravity="center"
-                    android:textSize="12sp"
-                    android:textColor="@color/welcome_to_skinsis__how_is_your_skin_today__color"
                     android:layout_marginLeft="23dp"
                     android:layout_marginTop="226dp"
+                    android:fontFamily="Nunito Sans"
+                    android:gravity="center"
+                    android:text="@string/snap_your_skin_string"
+                    android:textColor="@color/welcome_to_skinsis__how_is_your_skin_today__color"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/camera_button"
+                    android:layout_width="100dp"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/snap_your_skin"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="6dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:clickable="true"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    app:icon="@drawable/ic_baseline_camera_alt_24"
+                    app:iconGravity="textStart"
+                    app:iconTint="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/history"
                     android:layout_width="99dp"
                     android:layout_height="29dp"
-                    android:text="@string/snap_your_skin_string"
-                    />
-
-                <View   android:id="@+id/email_ek5"
-                    android:background="@drawable/email_ek5_shape"
-                    android:layout_marginStart="185dp"
-                    android:layout_marginTop="246dp"
-                    android:layout_width="150dp"
-                    android:layout_height="35dp" />
-
-                <TextView android:id="@+id/history"
-                    android:fontFamily="Nunito Sans"
+                    android:layout_alignStart="@+id/historybutton"
                     android:layout_gravity="center_horizontal|center"
-                    android:gravity="center"
-                    android:textSize="12sp"
-                    android:textColor="@color/welcome_to_skinsis__how_is_your_skin_today__color"
+                    android:layout_marginStart="0dp"
                     android:layout_marginLeft="166dp"
                     android:layout_marginTop="226dp"
-                    android:layout_width="99dp"
-                    android:layout_height="29dp"
-                    android:text="@string/history_string"
-                    />
-
-                <ImageView android:id="@+id/image_2"
-                    android:src="@drawable/image_2"
-                    android:contentDescription="image_2"
-                    android:layout_marginStart="241dp"
-                    android:layout_marginTop="246dp"
-                    android:layout_width="35dp"
-                    android:layout_height="35dp" />
-
-                <ImageView android:id="@+id/image_1"
-                    android:src="@drawable/image_1"
-                    android:contentDescription="image_1"
-                    android:layout_marginStart="71dp"
-                    android:layout_marginTop="247dp"
-                    android:layout_width="56dp"
-                    android:layout_height="32dp" />
-
-                <TextView android:id="@+id/hi_fara__how_is_your_skin_today_"
                     android:fontFamily="Nunito Sans"
-                    android:textStyle="bold"
-                    android:textSize="19sp"
+                    android:gravity="center"
+                    android:text="@string/history_string"
                     android:textColor="@color/welcome_to_skinsis__how_is_your_skin_today__color"
-                    android:layout_marginLeft="26dp"
-                    android:layout_marginTop="28dp"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/hi_fara__how_is_your_skin_today_"
                     android:layout_width="259.5dp"
                     android:layout_height="48.5dp"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginTop="28dp"
+                    android:fontFamily="Nunito Sans"
                     android:text="@string/hi_fara__how_is_your_skin_today__string"
-                    />
+                    android:textColor="@color/welcome_to_skinsis__how_is_your_skin_today__color"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
 
-                <ImageView android:id="@+id/image_3"
-                    android:src="@drawable/image_3"
-                    android:contentDescription="image_3"
+                <ImageView
+                    android:id="@+id/image_3"
+                    android:layout_width="58dp"
+                    android:layout_height="58dp"
+                    android:layout_alignParentEnd="true"
                     android:layout_marginStart="297dp"
                     android:layout_marginTop="16dp"
-                    android:layout_width="58dp"
-                    android:layout_height="58dp" />
+                    android:layout_marginEnd="30dp"
+                    android:contentDescription="image_3"
+                    android:src="@drawable/image_3" />
 
-                <ImageView android:id="@+id/image_4"
-                    android:src="@drawable/image_4"
-                    android:contentDescription="image_4"
+                <ImageView
+                    android:id="@+id/image_4"
+                    android:layout_width="23dp"
+                    android:layout_height="23dp"
+                    android:layout_alignEnd="@+id/image_3"
                     android:layout_marginStart="282dp"
                     android:layout_marginTop="31dp"
-                    android:layout_width="23dp"
-                    android:layout_height="23dp" />
+                    android:layout_marginEnd="60dp"
+                    android:contentDescription="image_4"
+                    android:src="@drawable/image_4" />
+
+                <Button
+                    android:id="@+id/historybutton"
+                    android:layout_width="99dp"
+                    android:layout_height="38dp"
+                    android:layout_alignTop="@+id/camera_button"
+                    android:layout_alignBottom="@+id/camera_button"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="34dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_toEndOf="@+id/camera_button"
+                    android:backgroundTint="@color/teal_700"
+                    android:insetTop="0dp"
+                    android:insetRight="0dp"
+                    android:insetBottom="0dp"
+                    app:icon="@drawable/image_2"
+                    app:iconGravity="textStart"
+                    app:iconPadding="8dp"
+                    app:iconTint="#FFFFFF" />
 
             </RelativeLayout>
 

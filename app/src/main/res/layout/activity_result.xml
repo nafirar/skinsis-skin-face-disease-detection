@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ResultActivity"
+    >
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="450dp"
+            android:layout_height="800dp"
+            android:background="@drawable/backgroundphoto"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/results_ek1"
+        android:layout_width="250dp"
+        android:layout_height="48.5dp"
+        android:layout_gravity="center_horizontal|center"
+        android:fontFamily="Nunito Sans"
+        android:gravity="center"
+        android:text="@string/results_ek1_string"
+        android:textColor="@color/welcome_to_skinsis__how_is_your_skin_today__color"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/scrollView2"
+        app:layout_constraintTop_toTopOf="@+id/scrollView2"
+        app:layout_constraintVertical_bias="0.110000014"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="81dp" />
+
+    <ImageView
+        android:id="@+id/image_preview"
+        android:layout_width="311dp"
+        android:layout_height="199dp"
+        android:src="@drawable/email_ek7_shape"
+        app:layout_constraintEnd_toEndOf="@+id/results_ek1"
+        app:layout_constraintStart_toStartOf="@+id/results_ek1"
+        app:layout_constraintTop_toBottomOf="@+id/results_ek1" />
+
+    <TextView
+        android:id="@+id/skin_indication"
+        android:layout_width="158dp"
+        android:layout_height="29dp"
+        android:layout_gravity="center_horizontal|center"
+        android:fontFamily="Nunito Sans"
+        android:gravity="center"
+        android:text="@string/your_skin_indication_string"
+        android:textColor="@color/welcome_to_skinsis__how_is_your_skin_today__color"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/image_preview"
+        app:layout_constraintTop_toBottomOf="@+id/image_preview" />
+
+    <View
+        android:id="@+id/email_ek8"
+        android:layout_width="311dp"
+        android:layout_height="121dp"
+        android:background="@drawable/email_ek8_shape"
+        app:layout_constraintEnd_toEndOf="@+id/image_preview"
+        app:layout_constraintStart_toStartOf="@+id/image_preview"
+        tools:layout_editor_absoluteY="352dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/professional_advice"
+        android:layout_width="158dp"
+        android:layout_height="29dp"
+        android:layout_gravity="center_horizontal|center"
+        android:fontFamily="Nunito Sans"
+        android:gravity="center"
+        android:text="@string/professional_advice__string"
+        android:textColor="@color/welcome_to_skinsis__how_is_your_skin_today__color"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/skin_indication"
+        app:layout_constraintStart_toStartOf="@+id/skin_indication"
+        app:layout_constraintTop_toBottomOf="@+id/email_ek8" />
+
+    <View
+        android:id="@+id/email_ek9"
+        android:layout_width="311dp"
+        android:layout_height="121dp"
+        android:background="@drawable/email_ek9_shape"
+        app:layout_constraintEnd_toEndOf="@+id/email_ek8"
+        app:layout_constraintStart_toStartOf="@+id/email_ek8"
+        app:layout_constraintTop_toBottomOf="@+id/professional_advice" />
+    <View
+        android:id="@+id/email_ek10"
+        android:layout_width="106dp"
+        android:layout_height="31dp"
+        android:background="@drawable/email_ek10_shape"
+        app:layout_constraintStart_toStartOf="@+id/try_again"
+        app:layout_constraintTop_toBottomOf="@+id/email_ek9" />
+    <TextView
+        android:id="@+id/try_again"
+        android:layout_width="86dp"
+        android:layout_height="27dp"
+        android:layout_gravity="center_horizontal|center"
+        android:fontFamily="Nunito Sans"
+        android:gravity="center"
+        android:text="@string/try_again_string"
+        android:textColor="@color/_bg__login_ek2_color"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/email_ek9"
+        app:layout_constraintTop_toBottomOf="@+id/email_ek9" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
