@@ -3,6 +3,7 @@ package com.abeimaso.skinsis
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+<<<<<<< Updated upstream
 import android.view.View
 import android.widget.Button
 import android.widget.ImageView
@@ -14,10 +15,24 @@ class MainActivity : AppCompatActivity() {
     private var history_button: Button?=null
     private lateinit var binding: ActivityMainBinding
 
+=======
+import android.view.Menu
+import android.view.MenuInflater
+import android.view.MenuItem
+import android.widget.ActionMenuView
+import android.widget.Toast
+
+import com.google.firebase.auth.FirebaseAuth
+
+class MainActivity : AppCompatActivity() {
+
+    private lateinit var user: FirebaseAuth
+>>>>>>> Stashed changes
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+<<<<<<< Updated upstream
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
@@ -31,6 +46,29 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
         finish()
+=======
+
+
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu,menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        user = FirebaseAuth.getInstance()
+        when(item.itemId){
+            R.id.logout ->
+                user.signOut()
+        }
+        startActivity(
+            Intent(
+                this,SignInActivity::class.java
+            )
+        )
+        return super.onOptionsItemSelected(item)
+>>>>>>> Stashed changes
     }
 
 

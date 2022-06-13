@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Bangkit2022/capstone/skinsis/app/src/main/res/drawable/bg_button.xml" value="0.121" />
+        <entry key="..\:/Bangkit2022/capstone/skinsis/app/src/main/res/drawable/forget.xml" value="0.121" />
+        <entry key="..\:/Bangkit2022/capstone/skinsis/app/src/main/res/layout/activity_forgot_password.xml" value="0.22" />
         <entry key="..\:/Bangkit2022/capstone/skinsis/app/src/main/res/layout/activity_main.xml" value="0.14130434782608695" />
+<<<<<<< Updated upstream
         <entry key="..\:/Users/asus/OneDrive/Documents/KULIAH/MBKM/SIB/tugas/skinsis-skin-face-disease-detection-master/skinsis-skin-face-disease-detection-master/app/src/main/res/drawable-nodpi/logo_shape.xml" value="0.1" />
         <entry key="..\:/Users/asus/OneDrive/Documents/KULIAH/MBKM/SIB/tugas/skinsis-skin-face-disease-detection-master/skinsis-skin-face-disease-detection-master/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.139" />
         <entry key="..\:/Users/asus/OneDrive/Documents/KULIAH/MBKM/SIB/tugas/skinsis-skin-face-disease-detection-master/skinsis-skin-face-disease-detection-master/app/src/main/res/drawable/ic_background_background.xml" value="0.139" />
@@ -13,6 +17,12 @@
         <entry key="..\:/Users/asus/OneDrive/Documents/KULIAH/MBKM/SIB/tugas/skinsis-skin-face-disease-detection-master/skinsis-skin-face-disease-detection-master/app/src/main/res/layout/activity_splashscreen.xml" value="0.2" />
         <entry key="..\:/Users/asus/OneDrive/Documents/KULIAH/MBKM/SIB/tugas/skinsis-skin-face-disease-detection-master/skinsis-skin-face-disease-detection-master/app/src/main/res/mipmap-anydpi-v26/ic_background.xml" value="0.121" />
         <entry key="..\:/Users/asus/OneDrive/Documents/KULIAH/MBKM/SIB/tugas/skinsis-skin-face-disease-detection-master/skinsis-skin-face-disease-detection-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1155" />
+=======
+        <entry key="..\:/Bangkit2022/capstone/skinsis/app/src/main/res/layout/activity_sign_in.xml" value="0.22" />
+        <entry key="..\:/Bangkit2022/capstone/skinsis/app/src/main/res/layout/activity_sign_up.xml" value="0.22" />
+        <entry key="..\:/Bangkit2022/capstone/skinsis/app/src/main/res/layout/activity_splashscreen.xml" value="0.22" />
+        <entry key="..\:/Bangkit2022/capstone/skinsis/app/src/main/res/menu/menu.xml" value="0.1796875" />
+>>>>>>> Stashed changes
       </map>
     </option>
   </component>

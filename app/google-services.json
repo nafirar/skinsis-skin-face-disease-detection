@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "196772225928",
+    "project_id": "skinsis-2ae94",
+    "storage_bucket": "skinsis-2ae94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196772225928:android:63534b606a073b18fc103d",
+        "android_client_info": {
+          "package_name": "com.abeimaso.skinsis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "196772225928-2mbecsrqjrrf4iqmhmc80fch4skjdpuu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzTMndDbe473qjlYXJiftcLOMxRh9HRTM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "196772225928-2mbecsrqjrrf4iqmhmc80fch4skjdpuu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

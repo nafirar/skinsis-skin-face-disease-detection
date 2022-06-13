@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Skinsis</string>
+<<<<<<< Updated upstream
 
 
     <string name="snap_your_skin_string">Snap your skin</string>
@@ -17,4 +18,25 @@
     <string name="skinsis_your_personal_skin_doctor_string">SkinsisYour Personal Skin Doctor</string>
     <string name="back_string">Back</string>
     <string name="history_ek4_string">History</string>
+=======
+    <string name="welcome">Welcome</string>
+    <string name="sign_up">Register</string>
+    <string name="sign_in">Login</string>
+    <string name="TandC">I agree to the terms and condition of Skinsis</string>
+    <string name="error_view">Error View</string>
+    <string name="password">Password</string>
+    <string name="email_hint">Email</string>
+    <string name="haveaccount">Already have account?</string>
+    <string name="personal">Your Personal Skin Doctor</string>
+    <string name="email">Email</string>
+    <string name="instruksi">You will get an email with instruction\n on reseting password</string>
+    <string name="welcomeskin">Welcome to Skinsis!</string>
+    <string name="how">How is your skin today?</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="forgot_password"><u>Forgot your password?</u></string>
+    <string name="email_verify_again">Resend Verify Email</string>
+    <string name="enterEmailId">Enter the registered Email ID</string>
+    <string name="user_domain_com">user@domain.com</string>
+    <string name="track">Track your skin journey with Skinsis!</string>
+>>>>>>> Stashed changes
 </resources>
