@@ -10,8 +10,9 @@
 
     <ScrollView
         android:id="@+id/scrollView2"
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foreground="@drawable/backgroundphoto"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
@@ -19,7 +20,6 @@
         <LinearLayout
             android:layout_width="450dp"
             android:layout_height="800dp"
-            android:background="@drawable/backgroundphoto"
             android:orientation="vertical" />
     </ScrollView>
 
@@ -64,14 +64,15 @@
         app:layout_constraintTop_toBottomOf="@+id/image_preview" />
 
     <View
-        android:id="@+id/email_ek8"
+        android:id="@+id/tvresult"
         android:layout_width="311dp"
         android:layout_height="121dp"
         android:background="@drawable/email_ek8_shape"
+        android:backgroundTint="@color/white"
         app:layout_constraintEnd_toEndOf="@+id/image_preview"
         app:layout_constraintStart_toStartOf="@+id/image_preview"
-        tools:layout_editor_absoluteY="352dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="352dp" />
 
     <TextView
         android:id="@+id/professional_advice"
@@ -86,23 +87,25 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/skin_indication"
         app:layout_constraintStart_toStartOf="@+id/skin_indication"
-        app:layout_constraintTop_toBottomOf="@+id/email_ek8" />
+        app:layout_constraintTop_toBottomOf="@+id/tvresult" />
 
     <View
-        android:id="@+id/email_ek9"
+        android:id="@+id/tvAdvice"
         android:layout_width="311dp"
         android:layout_height="121dp"
-        android:background="@drawable/email_ek9_shape"
-        app:layout_constraintEnd_toEndOf="@+id/email_ek8"
-        app:layout_constraintStart_toStartOf="@+id/email_ek8"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/tvresult"
+        app:layout_constraintStart_toStartOf="@+id/tvresult"
         app:layout_constraintTop_toBottomOf="@+id/professional_advice" />
+
     <View
         android:id="@+id/email_ek10"
         android:layout_width="106dp"
         android:layout_height="31dp"
-        android:background="@drawable/email_ek10_shape"
+        android:background="@color/teal_700"
         app:layout_constraintStart_toStartOf="@+id/try_again"
-        app:layout_constraintTop_toBottomOf="@+id/email_ek9" />
+        app:layout_constraintTop_toBottomOf="@+id/tvAdvice" />
+
     <TextView
         android:id="@+id/try_again"
         android:layout_width="86dp"
@@ -114,8 +117,9 @@
         android:textColor="@color/_bg__login_ek2_color"
         android:textSize="12sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@+id/email_ek9"
-        app:layout_constraintTop_toBottomOf="@+id/email_ek9" />
+        app:layout_constraintBottom_toBottomOf="@+id/email_ek10"
+        app:layout_constraintStart_toStartOf="@+id/tvAdvice"
+        app:layout_constraintTop_toBottomOf="@+id/tvAdvice" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
