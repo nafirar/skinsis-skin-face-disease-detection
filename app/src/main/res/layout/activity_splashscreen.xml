@@ -1,85 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< Updated upstream
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <ScrollView android:id="@+id/splash_screen"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        tools:ignore="MissingConstraints">
-
-    <RelativeLayout android:id="@+id/content_container"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" >
-
-    <RelativeLayout android:id="@+id/page_splash_screen_ek1"
-        android:layout_marginTop="0dp"
-        android:layout_marginStart="0dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        >
-
-    <View
-        android:id="@+id/_bg__splash_screen_ek2"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/_bg__splash_screen_ek2_shape" />
-
-        <ImageView
-            android:id="@+id/background"
-            android:layout_width="400dp"
-            android:layout_height="880dp"
-            android:layout_marginStart="0dp"
-            android:layout_marginTop="0dp"
-            android:contentDescription="_34185a6f9905e8b0b5b85b5efa284c88_2"
-            android:src="@drawable/_34185a6f9905e8b0b5b85b5efa284c88_2" />
-
-        <TextView
-            android:id="@+id/skinsis_your_personal_skin_doctor"
-            android:layout_width="231dp"
-            android:layout_height="96dp"
-            android:layout_below="@+id/logo_ek2"
-            android:layout_gravity="center_horizontal|center"
-            android:layout_marginLeft="69dp"
-            android:layout_marginTop="62dp"
-            android:fontFamily="Nunito Sans"
-            android:gravity="center"
-            android:text="@string/skinsis_your_personal_skin_doctor_string"
-            android:textColor="@color/welcome_to_skinsis__how_is_your_skin_today__color"
-            android:textSize="24sp"
-            android:textStyle="bold" />
-
-
-        <RelativeLayout android:id="@+id/frame_1"
-            android:layout_marginTop="126dp"
-            android:layout_marginStart="92dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            >
-
-        </RelativeLayout>
-
-        <View
-            android:id="@+id/logo_ek2"
-            android:layout_width="155dp"
-            android:layout_height="152dp"
-            android:layout_below="@+id/_bg__splash_screen_ek2"
-            android:layout_marginStart="104dp"
-            android:layout_marginTop="210dp"
-            android:background="@drawable/logo_ek2_shape" />
-
-    </RelativeLayout>
-
-
-    </RelativeLayout>
-
-    </ScrollView>
-
-
-</androidx.constraintlayout.widget.ConstraintLayout>
-=======
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -110,4 +29,4 @@
         android:textColor="@android:color/black" />
 
 </LinearLayout>
->>>>>>> Stashed changes
+

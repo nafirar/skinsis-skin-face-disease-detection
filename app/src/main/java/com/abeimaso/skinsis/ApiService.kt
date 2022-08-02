@@ -15,6 +15,6 @@ interface ApiService {
         @Header("Authorization") header: String,
         @Part file: MultipartBody.Part,
         @Part("description") description: RequestBody,
-    ): retrofit2.Call<FileImageResult>
+    ): retrofit2.Call<ResultActivity>
 
 }
